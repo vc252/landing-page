@@ -1,0 +1,221 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a:hover {
+    color: blue;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.main-hero .image {
+    width: 800px;
+}
+
+.background {
+    background-image: url(/images/Pickachu.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #1F2937;
+    opacity: 0.95;
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.main-hero {
+    background-color: #1F2937;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 180px;
+    margin-bottom: 120px;
+    padding: 50px 70px 70px;
+    border-radius: 20px;
+    gap: 20px;
+    border: solid;
+    border-color: silver;
+    border-width: 5px;
+}
+
+.intro h1 {
+    color: #F9FAF8;
+}
+
+.intro p {
+    color: #E5E7EB;
+}
+
+.main-hero button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+}
+
+button {
+    transition: all 0.15s;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.pokemons .image {
+    width: 250px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    display: block;
+}
+
+.pokemons img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.pokemons img {
+    object-fit: cover;
+    height: 140px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 4px;
+    transition: all 0.5s ease;
+}
+
+.pokemons p {
+    font-size: 15px;
+    color: #1f2937ab;
+    text-align: center;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.descriptionpokemons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.pokemons h2 {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.pokemons {
+    display: block;
+    margin-bottom: 100px;
+}
+
+.quote {
+    background-image: url(/images/Pikachu.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 200px 85px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote * {
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 40px 40px 0px;
+}
+
+.quote div {
+    text-align: right;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:15px;
+}
+
+footer {
+    background-color: #3882F6;
+    display: flex;
+    margin: 90px 170px;
+    border-radius: 10px;
+    padding: 50px 10%;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+#u {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+#l {
+    color: #E5E7EB;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+footer button {
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    color: #F9FAF8;
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+
