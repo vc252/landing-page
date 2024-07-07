@@ -35,7 +35,7 @@ img {
 }
 
 .background {
-    background-image: url(/images/Pickachu.gif);
+    background-image: url(../images/Pickachu.gif);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -155,7 +155,7 @@ button:active {
 }
 
 .quote {
-    background-image: url(/images/Pikachu.jpeg);
+    background-image: url(../images/Pikachu.jpeg);
     background-attachment: fixed;
     background-size: cover;
     padding: 100px 200px 85px 200px;
